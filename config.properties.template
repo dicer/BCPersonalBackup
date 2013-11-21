@@ -1,0 +1,10 @@
+#currently no direct login credentials supported. see https://developer.bitcasa.com/docs/auth and do that manually until you got the access_token 
+access_token=<Your access token>
+remoteBackupFolder=backup
+localBackupFolder=<Your local folder>
+deleteAfterUpload=false
+
+#ignore files that match the following regexp. Useful when you are using continuous mode to monitor a folder where uploads occur. 
+#Eg:Ignore files with ending .part, upload file with ending .part, then rename when upload complete
+#ignoreFilesWithRegexp=^.*\.part$
+ignoreFilesWithRegexp=
